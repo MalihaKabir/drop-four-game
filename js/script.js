@@ -9,43 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	// let scoreOne = 0;
 	// let scoreTwo = 0;
 
-	// function startGame () {
-	// 	for (let i = 0; i < smallGrids.length; i++) {
-	// 		smallGrids[i].addEventListener('click', () => {
-	// 			if (
-	// 				smallGrids[i + 7].className === 'taken' ||
-	// 				smallGrids[i + 7].className === 'ball-one' ||
-	// 				smallGrids[i + 7].className === 'ball-two'
-	// 			) {
-	// 				if (currentPlayer === 1) {
-	// 					smallGrids[i].classList.add('ball-one');
-	// 					currentPlayer = 2;
-	// 					currentPlayerDisplay.textContent = currentPlayerDisplay.textContent;
-
-	// 					smallGrids[i].id = i;
-
-	// 					currentPlayerDisplay.classList.remove('player-one');
-	// 					currentPlayerDisplay.classList.add('player-two');
-	// 				} else if (currentPlayer === 2) {
-	// 					smallGrids[i].classList.add('ball-two');
-	// 					currentPlayer = 1;
-	// 					currentPlayerDisplay.textContent = currentPlayerDisplay.textContent;
-
-	// 					smallGrids[i].id = i;
-
-	// 					currentPlayerDisplay.classList.remove('player-two');
-	// 					currentPlayerDisplay.classList.add('player-one');
-	// 				}
-	// 				// console.log('FOR', smallGrids[i], currentPlayerDisplay, i);
-	// 				// console.log('findClassName', smallGrids[i].className);
-	// 				console.log(smallGrids[i]);
-	// 			} else {
-	// 				alert('No gap between squares is allowed');
-	// 			}
-	// 		});
-	// 	}
-	// }
-
 	for (let i = 0; i < smallGrids.length; i++) {
 		smallGrids[i].addEventListener('click', () => {
 			if (
