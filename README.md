@@ -10,3 +10,5 @@ Drop Six is a two-player board game in which the players first choose a color an
 * Once your go is taken and you did not win, it'll be player Two's go
 * The gamer will continue until a winning combination of six is reached by player One or player Two, or until the grid is full and no winning combination was found
 * The first place to do this, wins.
+
+click [here](https://github.com/MalihaKabir/drop-six-js-game) to get the updated version.
